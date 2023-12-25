@@ -1,6 +1,6 @@
 package Arrays.Easy;
 
-import java.util.HashSet;
+// import java.util.HashSet;
 
 public class RemoveDupFromSorArr {
     public static void removeDuplicated(int nums[]){
