@@ -1,11 +1,11 @@
 package Arrays.Easy;
 
-import java.util.Arrays;
-import java.util.HashSet;
+// import java.util.Arrays;
+// import java.util.HashSet;
 
 public class FindDuplicateInArr {
     public static int findDuplicate(int nums[]){
-        int n = nums.length-1;
+        // int n = nums.length-1;
 
         //Fully Optimised :- :- TC O(n) SC O(1)
         int slow = 0, fast = 0;
