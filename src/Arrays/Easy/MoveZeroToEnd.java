@@ -22,26 +22,26 @@ public class MoveZeroToEnd {
         // int cnt = 0;
 
         // for (int i = 0; i < nums.length; i++) {
-        // if(nums[i] != 0){
-        // int temp = nums[i];
-        // nums[i] = nums[cnt];
-        // nums[cnt] = temp;
-        // cnt++;
-        // }
+        //     if (nums[i] != 0) {
+        //         int temp = nums[i];
+        //         nums[i] = nums[cnt];
+        //         nums[cnt] = temp;
+        //         cnt++;
+        //     }
         // }
 
         // Naive Solution :- TC O(n^2) SC O(1)
         // for (int i = 0; i < nums.length; i++) {
-        // if(nums[i] == 0){
-        // for (int j = i+1; j < nums.length; j++) {
-        // if(nums[j] != 0){
-        // int temp = nums[i];
-        // nums[i] = nums[j];
-        // nums[j] = temp;
-        // break;
-        // }
-        // }
-        // }
+        //     if (nums[i] == 0) {
+        //         for (int j = i + 1; j < nums.length; j++) {
+        //             if (nums[j] != 0) {
+        //                 int temp = nums[i];
+        //                 nums[i] = nums[j];
+        //                 nums[j] = temp;
+        //                 break;
+        //             }
+        //         }
+        //     }
         // }
 
         for (int i = 0; i < nums.length; i++) {
